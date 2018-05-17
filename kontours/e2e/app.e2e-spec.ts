@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('kontours App', () => {
+describe('angular-filestore App', () => {
   let page: AppPage;
 
   beforeEach(() => {

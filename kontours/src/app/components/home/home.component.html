@@ -1,3 +1,210 @@
-<p>
-  home works!
-</p>
+<section class="about-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto text-center" >
+          <h2 class="section-heading text-white mb-3">What Do We Do?</h2>
+          <h4 class="section-subheading">Experience the best the world has to offer. Find yourself at destinations that will blow your mind </h4>
+          <hr class="my-4">
+          <div class="row text-center">
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-church fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="mt-3 mb-2">Locations</h4>
+                <p class="">Kontours aim to connect superb independent guides with thousands of sight seers at a time that suits you.</p>
+              </div>
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-quote-right fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="mt-3 mb-2">Communications</h4>
+                <p class="">Our guides are experts in the hidden histories, myths and legends that the attractions hold</p>
+              </div>
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="mt-3 mb-2">Our Stats</h4>
+                <p class="">Kontours operate in 4416 cities world-wide! We've been proving guides for 8 years.</p>
+              </div>
+            </div>
+      
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="../assets/img/trip3.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="../assets/img/forbes.png"  alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="../assets/img/local.png"  alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="../assets/img/holidays.jpeg"  alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="guide-primary" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="text-uppercase">Your Guide</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="team-member mt-4">
+              <img class="mx-auto rounded-circle" src="../assets/img/davehome.jpeg" alt="">
+              <h4>David Simpson</h4>
+              <p class="">Tour Guide</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large">With a wealth of knowledge under his belt Dave will guide you through your chosen tour with a head full of stats and a belly full of giggles. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+<section class="p-0" id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="../assets/img/davelawn.jpeg" alt="">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="../assets/img/daveroad.jpeg"  alt="">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="../assets/img/davetown.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Reviews</h2>
+            <hr class="my-4">
+            <img class="img-fluid stars" src="../assets/img/stars.png">
+            <div class="ex1">
+            <div *ngIf="tasks?.length > 0;">
+                <div *ngFor="let task of tasks" class="collection mt-3 ml-2 mr-2">
+                   <p >"{{ task.message }}" <strong>{{ task.name }} : {{ task.score}}/5</strong>  </p>
+                </div>
+              </div>
+            </div>
+            <hr class="my-4">
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#review">Write Your Review!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="position-relative overflow-hidden text-center bg-light" id="map-container">
+        <div id="map"></div>
+      </div>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="section-heading text-white">Tour Dates</h2>
+              <hr class="light my-4">
+              <div class="row">
+                  <div class="col-6  dates">
+
+              <p> Monday 28th May</p>
+              <p>Friday 1st june </p>
+              <p>Saturday 2nd June</p>
+              <p>Sunday 3rd june</p>
+              </div>
+              <div class="col-6">
+              <p>3pm</p>
+              <p>3pm</p>
+              <p>3pm</p>
+              <p>3pm</p>
+              </div>
+              </div>
+              <hr class="light my-4">
+              <p class= "mt-5">LEITH THEATRE BALCONY BAR - 28-30 Ferry Rd, Edinburgh EH6 4AE</p>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase text-muted mb-3">Review Us</h2>
+                <h3 class="section-subheading text-muted mb-4">Tell us your experience!</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                
+                <form id="review" (ngSubmit)="onSubmit()" name="sentMessage" #form="ngForm" novalidate>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input class="form-control" id="name" type="text" placeholder="Your Name *" [(ngModel)]="task.name" name="name"  maxlength="10">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                      <div class="form-group">
+                        <input class="form-control" id="email" type="number" placeholder="Your Score 1-5 *"  [(ngModel)]="task.score" name="score"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                        type = "number"
+                        maxlength = "1" onkeydown="javascript: return event.keyCode == 69 ? false : true" >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Your Message *" [(ngModel)]="task.message" name="message" maxlength="720"></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12 text-center">
+                      <div id="success"></div>
+                      <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" [disabled]="!form.valid" >Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              
+              </div>
+            </div>
+          </div>
+        </section>
+
+      
+
+  
+      
