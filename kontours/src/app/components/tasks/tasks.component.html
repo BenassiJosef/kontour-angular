@@ -1,7 +1,7 @@
 <div *ngIf="tasks?.length > 0;else noTasks">
   <ul *ngFor="let task of tasks" class="collection">
     <li class="collection-item" (dblclick)="deleteTask($event, task)">
-      <strong>{{ task.name }}</strong> : {{ task.score}}/10 
+      <strong>{{ task.name }}</strong> : {{ task.score}}/5
       <a href="#" class="secondary-content">
         <i (click)="deleteTask($event, task)" class="fa fa-trash"></i>
         <i (click)="editTask($event, task)" class="fa fa-pencil"></i>

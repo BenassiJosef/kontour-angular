@@ -16,7 +16,11 @@ export class TaskService {
   taskDoc: AngularFirestoreDocument<Task>;
 
   constructor(public afs:AngularFirestore) {
+<<<<<<< HEAD
     this.tasksCollection = this.afs.collection('reviews', ref => ref.orderBy('score'));
+=======
+    this.tasksCollection = this.afs.collection('reviews');
+>>>>>>> cf8d49e2d0e3161541a1f7a08506434515583ed8
     // this.tasks = this.afs.collection('tasks').valueChanges();
     this.tasks = this.tasksCollection.snapshotChanges().map(changes => {
       return changes.map(a => {
